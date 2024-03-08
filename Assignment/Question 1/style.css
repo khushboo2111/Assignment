@@ -1,0 +1,30 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.progress-bar {
+    width: 60%;
+    height: 50px;
+    background-color: white;
+    border-radius: 11px;
+    margin-top: 20%;
+    margin-left: 10%;
+    border: 3px solid black;
+    overflow: hidden;
+}
+
+.progress {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    background-color: brown;
+    border-radius: 10px;
+    font-size: 25px;
+    text-align: center;
+    color: aliceblue;
+    
+}
