@@ -7,61 +7,90 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Khushboo Gupta</h1>
-        <nav>
-            <ul>
-                <li><a href="#experiences">Experiences</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+    <header class="header">
+        <a href="#" class="logo">Khushboo Gupta</a>
+        <nav class="navbar">
+          <a href="#" class="active">Home</a>
+          <a href="#" >About</a>
+          <a href="#">Experience</a>
+          <a href="#contact">Contact</a>
         </nav>
     </header>
 
-    <section id="experiences">
-        <h2>Experiences</h2>
-        <h4>Syven Global Services</h4>
-        <p>Worked on a CRM based project called US Student Housing.Learnt to ingest data from
-            Entrata API to database and creating reports(dashboards)for housing managers for leasing
-            rented house to students.This application has been hosted on AWS</p>
 
-        <h4>Coding Ninjas</h4>
-        <p>As a teaching assistant, I devoted 2 hours per day explaining the concepts of Data
-            Structures andAlgorithm in C++ language.Helped students optimize their code,debug it
-            and work upon logic building.</p>
-    </section>
+    <div class="home">
+        <div class="home-content">
+            <h1>Hi, I am Khushboo</h1>
+            <h3>Full Stack Developer</h3>
+            <div class="btn-box">
+                <a href="#">Hire  Me</a>
+                <a href="#">Let's Talk</a>
+            </div>
+        </div>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <h4>Caralysis</h4>
-        <p>It provides dashboards of automobiles launched in India through which existing industries can draw insights
-            to improvise their sales and focus on sustainable development.It also provides features to sort the data using filters
-            and dashboards are generated.It also shows how automotive industries can shiftto electric vehicles to reduce carbon
-            emissions.</p>
+        <div class="image">
+            <img src="profile.jpg" alt="" srcset="">
+        </div>
+    </div>
 
-        <h4>Caralysis</h4>
-        <p>EyeVision is a mobile appthat providesvarious eye tests like visual acuity and color vision testswhich canbe
-            taken for pre consulting from eye doctors purposes.Also,it provides eye health tips and eye exercises.</p>
-    </section>
+  <div class="card">
+    <div class="flip-card" id="one">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <h2>Frontend Technologies</h2>
+          </div>
+          <div class="flip-card-back">
+            <p>ReactJs</p>
+            <p>AngularJs</p>
+            <p>Flutter</p>
+          </div>
+        </div>
+      </div>
 
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <form>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
+      <div class="flip-card" id="two">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <h2>Backend Technologies</h2>
+          </div>
+          <div class="flip-card-back">
+            <p>Node</p>
+            <p>Springboot</p>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card" id="three">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <h2>Tools</h2>
+          </div>
+          <div class="flip-card-back">
+            <p>Git</p>
+            <p>Jira</p>
+            <p>CI/CD</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    </div>
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
 
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
+    <div class="right-side">
+        <div class="topic-text">Send us a message</div>
+        
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Enter your name">
+        </div>
+        <div class="input-box">
+          <input type="text" placeholder="Enter your email">
+        </div>
+        <div class="input-box message-box">
+          
+        </div>
+        <div class="button">
+          <input type="button" value="Send Now" >
+        </div>
 
-            <button type="submit">Send</button>
-        </form>
-    </section>
-
-    <footer>
-        <p>&copy; 2024 Khushboo Gupta</p>
-    </footer>
 </body>
 </html>
